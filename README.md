@@ -1,6 +1,6 @@
 # Ingeno PO Writer
 
-Skill Claude qui rédige des epics, des user stories et des découpages d'epics (story maps) selon les pratiques d'Ingeno. Il fonctionne en français et en anglais.
+Plugin Claude Code dont le skill rédige des epics, des user stories et des découpages d'epics (story maps) selon les pratiques d'Ingeno. Il fonctionne en français et en anglais.
 
 ## Ce que le skill fait
 
@@ -11,9 +11,19 @@ Skill Claude qui rédige des epics, des user stories et des découpages d'epics 
 
 ## Contenu
 
-- `SKILL.md` : les instructions du skill.
-- `references/epic-template.md` : le gabarit d'epic.
+- `.claude-plugin/plugin.json` : le manifeste du plugin.
+- `skills/ingeno-po-writer/SKILL.md` : les instructions du skill.
+- `skills/ingeno-po-writer/references/epic-template.md` : le gabarit d'epic.
 
 ## Installation
 
-Dans Claude, ouvre les paramètres des skills et téléverse ce dossier sous forme de fichier ZIP. Avec Claude Code, copie le dossier dans `~/.claude/skills/`.
+Avec Claude Code, depuis la marketplace d'Ingeno ([ingeno/ingeno-claude-marketplace](https://github.com/ingeno/ingeno-claude-marketplace)) :
+
+```
+/plugin marketplace add ingeno/ingeno-claude-marketplace
+/plugin install ingeno-po-writer@ingeno
+```
+
+Dans l'app Claude, ouvre les paramètres des skills et téléverse le dossier `skills/ingeno-po-writer` sous forme de fichier ZIP.
+
+Une nouvelle version n'atteint l'équipe qu'après une PR dans la marketplace qui avance le `sha` épinglé de ce plugin.

@@ -1,0 +1,10 @@
+{
+  "name": "ingeno-po-writer",
+  "version": "0.1.0",
+  "description": "Ingeno product owner skills: epics, user stories and epic breakdowns (story maps), in French and English.",
+  "author": {
+    "name": "Ingeno"
+  },
+  "repository": "https://github.com/ingeno/ingeno-po-writer",
+  "license": "UNLICENSED"
+}
