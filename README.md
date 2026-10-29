@@ -26,4 +26,4 @@ Avec Claude Code, depuis la marketplace d'Ingeno ([ingeno/ingeno-claude-marketpl
 
 Dans l'app Claude, ouvre les paramètres des skills et téléverse le dossier `skills/ingeno-po-writer` sous forme de fichier ZIP.
 
-Une nouvelle version n'atteint l'équipe qu'après une PR dans la marketplace qui avance le `sha` épinglé de ce plugin.
+Une nouvelle version n'atteint l'équipe qu'après une PR dans la marketplace qui avance le `sha` épinglé de ce plugin. 
